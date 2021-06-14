@@ -1,0 +1,35 @@
+$banner-color: white;
+$banner-bg-color: #08123b;
+$content-color: black;
+
+.Vahak-logo {
+  height: 40px;
+  padding: 20px;
+  margin-left: 20px;
+}
+
+.Banner {
+  height: 180px;
+  text-align: center;
+  background-color: $banner-bg-color;
+  color: $banner-color;
+}
+
+.Banner-message {
+  height: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+}
+
+.App-content {
+  background-color: white;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: $content-color;
+}
